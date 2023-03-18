@@ -9,7 +9,7 @@ const useFetch = ({ url }) => {
     const abortController = new AbortController()
     setLoading(true)
 
-    fetch(url)
+    fetch(url, { signal: abortController.signal })
       .then(response => response.json())
       .then(data => setData(data))
       .catch(error => setError(error))
