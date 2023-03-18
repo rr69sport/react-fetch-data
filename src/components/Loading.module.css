@@ -1,0 +1,14 @@
+.loading {
+  padding: 1rem;
+  color: #09f;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  animation: breathing .5s linear alternate infinite;
+}
+
+@keyframes breathing {
+  to {
+    opacity: 0;
+  }
+}

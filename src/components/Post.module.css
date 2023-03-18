@@ -1,0 +1,12 @@
+.post {
+  padding: 10px;
+  background-color: inherit;
+}
+
+.title {
+  color: #09f;
+}
+
+.body {
+  font-size: 90%;
+}

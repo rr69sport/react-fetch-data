@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 860px;
+  font-family: sans-serif;
+  color: #fefefe;
+  background-color: #141414;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
