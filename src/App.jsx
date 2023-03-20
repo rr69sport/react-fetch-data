@@ -14,7 +14,7 @@ const App = () => {
       <Heading content='Fetching de Datos' />
 
       {error && <Error error={error} />}
-      {loading ? <Loading /> : <PostsList posts={data.posts} />}
+      {loading ? <Loading /> : <PostsList posts={data?.posts} />}
     </>
   )
 }
