@@ -8,4 +8,5 @@ const Post = ({ title, body }) => {
     </li>
   )
 }
+
 export default Post

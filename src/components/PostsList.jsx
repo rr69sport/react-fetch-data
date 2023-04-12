@@ -7,6 +7,7 @@ const PostsList = ({ posts }) => {
       {
         posts?.map(post => {
           const { id, title, body } = post
+
           return (
             <Post key={id} title={title} body={body} />
           )
